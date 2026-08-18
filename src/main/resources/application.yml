@@ -1,0 +1,22 @@
+server:
+  port: 5000
+
+deepl:
+  api:
+    key: 162ce186-bbc5-458d-82be-c0c47fa8806e:fx
+    url: https://api-free.deepl.com/v2/translate
+
+gemini:
+  api:
+    key: AQ.Ab8RN6JBR7BvAtZ8NM9H-kyfYdPFU0lxDSgYlDlaLD19qYZZRA
+    url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
