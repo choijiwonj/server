@@ -3,12 +3,12 @@ server:
 
 deepl:
   api:
-    key: 162ce186-bbc5-458d-82be-c0c47fa8806e:fx
+    key:
     url: https://api-free.deepl.com/v2/translate
 
 gemini:
   api:
-    key: AQ.Ab8RN6JBR7BvAtZ8NM9H-kyfYdPFU0lxDSgYlDlaLD19qYZZRA
+    key:
     url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent
 spring:
   datasource:
